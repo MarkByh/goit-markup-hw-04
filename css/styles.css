@@ -92,7 +92,7 @@ header{
 }
 
 .contact{
-    
+    padding: 32px 0;
     display: flex;
     margin-left: auto;
     gap: 50px;
@@ -105,7 +105,7 @@ header{
 .contact .link{
    color:  var(--text-color);
    font-size: 14px;
-     padding: 32px 0;
+   padding: 32px 0;
 }
 .contact .link:hover{
     color: var(--accent-color);
@@ -180,10 +180,13 @@ footer{background: #2F303A;
  .icon-container{
     background: #F5F4FA;
     border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
-.feature-icon{
-    margin: 25px 100px;
-}
+
 
 
  .feature{
@@ -228,7 +231,9 @@ margin-bottom: 50px;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-    margin-top: 10px;}
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
 .name{
     font-weight: 500;
 font-size: 16px;
@@ -243,7 +248,7 @@ color: #212121;
 
 .member-soc-link{
     display: flex;
-    margin-top: 16px;
+    
     
      width: 44px;
     height: 44px;
@@ -281,10 +286,11 @@ margin-bottom: 50px;
     border-radius: 4px;
     color:  #AFB1B8;
     height: 92px;
+    width: 170px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 32px ;
+    
 }
 .client-icon{
     fill: currentColor;
